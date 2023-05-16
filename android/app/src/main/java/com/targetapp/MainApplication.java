@@ -5,17 +5,13 @@ package com.targetapp;
 import com.adobe.marketing.mobile.AdobeCallback;
 import com.adobe.marketing.mobile.Assurance;
 import com.adobe.marketing.mobile.Extension;
-import com.adobe.marketing.mobile.edge.identity.Identity;
+import com.adobe.marketing.mobile.Identity;
 import com.adobe.marketing.mobile.Lifecycle;
 import com.adobe.marketing.mobile.LoggingMode;
 import com.adobe.marketing.mobile.MobileCore;
 import com.adobe.marketing.mobile.Signal;
-import com.adobe.marketing.mobile.Edge;
 import com.adobe.marketing.mobile.Target;
-
-
-
-//import com.adobe.marketing.mobile.edge.consent.Consent;
+import com.adobe.marketing.mobile.UserProfile;
 
 import android.app.Application;
 import android.content.Context;
@@ -84,12 +80,12 @@ public class MainApplication extends Application implements ReactApplication {
     MobileCore.setLogLevel(LoggingMode.DEBUG);
     MobileCore.configureWithAppID(ENVIRONMENT_FILE_ID);
     List<Class<? extends Extension>> extensions = Arrays.asList(
+            Assurance.EXTENSION,
+            Target.EXTENSION,
+            Identity.EXTENSION,
             Lifecycle.EXTENSION,
             Signal.EXTENSION,
-            Identity.EXTENSION,
-            Edge.EXTENSION,
-            Target.EXTENSION,
-            Assurance.EXTENSION
+            UserProfile.EXTENSION
             );
     MobileCore.registerExtensions(extensions, o -> {
         Log.d("LOG_TAG", "AEP Mobile SDK is initialized");
