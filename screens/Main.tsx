@@ -1,25 +1,31 @@
 import React, { useEffect, useState } from 'react';
 import {ImageBackground, Button, StyleSheet, Text, View, Alert} from 'react-native';
-import { Target, TargetParameters, TargetPrefetchObject  } from '@adobe/react-native-aeptarget';
-//import { Assurance } from "@adobe/react-native-aepassurance";
+import { Target, TargetParameters, TargetPrefetchObject, TargetRequestObject  } from '@adobe/react-native-aeptarget';
 
 const Main = ({ navigation }) => {
 
-  //Assurance.startSession("http://www.adobe-adl.com/?adb_validation_sessionid=5528e91f-0377-443d-9802-cc645756cdc3");
-  var mboxParameters1 = { status: "platinum" };
-  var parameters1 = new TargetParameters(mboxParameters1);
-  var prefetch1 = new TargetPrefetchObject("app-target-mbox", parameters1);
+  const [targetContent, setTextBtn] = useState("Home-default")
+  const parameters1 = new TargetParameters({}, {}, undefined, undefined)
 
-  var prefetchList = [prefetch1];
-  var profileParameters1 = { ageGroup: "20-32" };
-
-  var parameters = new TargetParameters(
-    { parameters: "parametervalue" },
-    profileParameters1,
-  );
-  Target.prefetchContent(prefetchList, parameters)
-    .then((success) => console.log("success",success))
-    .catch((err) => console.log(err));
+  useEffect(() => {
+    const requestObject = new TargetRequestObject(
+      'app-target-mbox',
+      parameters1,
+      'personalizado',
+      (error, content) => {
+        if (error) {
+          console.error(error);
+        } else {
+          if(content) {
+            let contentObj = JSON.parse(content)
+            console.log('***', contentObj, typeof contentObj.button)
+            setTextBtn(contentObj["button"]);
+          }
+          console.log("Adobe content TargetRequestObject:", content);
+          }
+        });
+        Target.retrieveLocationContent([requestObject], parameters1);
+      }, [] );
 
   return (
     <View style={styles.container}>
@@ -36,7 +42,7 @@ const Main = ({ navigation }) => {
           onPress={() => Alert.alert('Click buttons')}
         />
         <Button
-          title="Go to Home"
+          title={targetContent}
           onPress={() => {
             navigation.navigate('Home');
           }}

@@ -15,12 +15,10 @@ import java.util.ArrayList;
 import com.adobe.marketing.mobile.reactnative.assurance.RCTAEPAssurancePackage;
 // @adobe/react-native-aepcore
 import com.adobe.marketing.mobile.reactnative.RCTAEPCorePackage;
-// @adobe/react-native-aepedge
-import com.adobe.marketing.mobile.reactnative.edge.RCTAEPEdgePackage;
-// @adobe/react-native-aepedgeidentity
-import com.adobe.marketing.mobile.reactnative.edgeidentity.RCTAEPEdgeIdentityPackage;
 // @adobe/react-native-aeptarget
 import com.adobe.marketing.mobile.reactnative.target.RCTAEPTargetPackage;
+// @adobe/react-native-aepuserprofile
+import com.adobe.marketing.mobile.reactnative.userprofile.RCTAEPUserProfilePackage;
 // react-native-safe-area-context
 import com.th3rdwave.safeareacontext.SafeAreaContextPackage;
 // react-native-screens
@@ -72,9 +70,8 @@ public class PackageList {
       new MainReactPackage(mConfig),
       new RCTAEPAssurancePackage(),
       new RCTAEPCorePackage(),
-      new RCTAEPEdgePackage(),
-      new RCTAEPEdgeIdentityPackage(),
       new RCTAEPTargetPackage(),
+      new RCTAEPUserProfilePackage(),
       new SafeAreaContextPackage(),
       new RNScreensPackage()
     ));

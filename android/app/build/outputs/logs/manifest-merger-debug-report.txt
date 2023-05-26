@@ -10,9 +10,8 @@ MERGED from [com.facebook.flipper:flipper-network-plugin:0.125.0] /Users/carlos.
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.125.0] /Users/carlos.vasquez/.gradle/caches/transforms-3/d00cb5af49214c127447117a850c65b4/transformed/jetified-flipper-fresco-plugin-0.125.0/AndroidManifest.xml:8:1-15:12
 MERGED from [:adobe_react-native-aepassurance] /Users/carlos.vasquez/target-app/node_modules/@adobe/react-native-aepassurance/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-13:12
 MERGED from [:adobe_react-native-aepcore] /Users/carlos.vasquez/target-app/node_modules/@adobe/react-native-aepcore/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-19:12
-MERGED from [:adobe_react-native-aepedge] /Users/carlos.vasquez/target-app/node_modules/@adobe/react-native-aepedge/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
-MERGED from [:adobe_react-native-aepedgeidentity] /Users/carlos.vasquez/target-app/node_modules/@adobe/react-native-aepedgeidentity/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:adobe_react-native-aeptarget] /Users/carlos.vasquez/target-app/node_modules/@adobe/react-native-aeptarget/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:adobe_react-native-aepuserprofile] /Users/carlos.vasquez/target-app/node_modules/@adobe/react-native-aepuserprofile/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-safe-area-context] /Users/carlos.vasquez/target-app/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-screens] /Users/carlos.vasquez/target-app/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.react:react-native:0.70.6] /Users/carlos.vasquez/.gradle/caches/transforms-3/0b825f9a3cd84cf1738e48fbfed11fea/transformed/jetified-react-native-0.70.6-debug/AndroidManifest.xml:2:1-11:12
@@ -37,9 +36,8 @@ MERGED from [com.adobe.marketing.mobile:assurance:2.1.0] /Users/carlos.vasquez/.
 MERGED from [com.adobe.marketing.mobile:signal:2.0.1] /Users/carlos.vasquez/.gradle/caches/transforms-3/35c648e64660925a8f67a12d883bb013/transformed/jetified-signal-2.0.1/AndroidManifest.xml:2:1-9:12
 MERGED from [com.adobe.marketing.mobile:identity:2.0.2] /Users/carlos.vasquez/.gradle/caches/transforms-3/a41ffceaacb8042b474d21c683cfd524/transformed/jetified-identity-2.0.2/AndroidManifest.xml:2:1-9:12
 MERGED from [com.adobe.marketing.mobile:lifecycle:2.0.1] /Users/carlos.vasquez/.gradle/caches/transforms-3/2cb6ce813cc1064f1922f9e473aff0a4/transformed/jetified-lifecycle-2.0.1/AndroidManifest.xml:2:1-9:12
-MERGED from [com.adobe.marketing.mobile:edge:2.1.0] /Users/carlos.vasquez/.gradle/caches/transforms-3/a393c8e427d50c050f51d0f3a9fe1135/transformed/jetified-edge-2.1.0/AndroidManifest.xml:13:1-20:12
-MERGED from [com.adobe.marketing.mobile:edgeidentity:2.0.0] /Users/carlos.vasquez/.gradle/caches/transforms-3/6d9d3c3a873ea9da5374e3497714f4b2/transformed/jetified-edgeidentity-2.0.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.adobe.marketing.mobile:target:2.0.0] /Users/carlos.vasquez/.gradle/caches/transforms-3/6ec1ea94b709c818d02f4cb1434561bc/transformed/jetified-target-2.0.0/AndroidManifest.xml:13:1-20:12
+MERGED from [com.adobe.marketing.mobile:userprofile:2.0.0] /Users/carlos.vasquez/.gradle/caches/transforms-3/29c035580c7ea02875f0541f472125f3/transformed/jetified-userprofile-2.0.0/AndroidManifest.xml:2:1-12:12
 MERGED from [com.adobe.marketing.mobile:core:2.1.3] /Users/carlos.vasquez/.gradle/caches/transforms-3/4d5bbecb82a466a2b573e89a9502822b/transformed/jetified-core-2.1.3/AndroidManifest.xml:2:1-12:12
 MERGED from [com.google.android.material:material:1.1.0] /Users/carlos.vasquez/.gradle/caches/transforms-3/ff7f9e1ea9c2e709fffb9e018f2252cf/transformed/material-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.4.1] /Users/carlos.vasquez/.gradle/caches/transforms-3/1b40e4574e76bff5831ef4bf4270480d/transformed/appcompat-1.4.1/AndroidManifest.xml:17:1-24:12
@@ -106,12 +104,16 @@ uses-permission#android.permission.INTERNET
 ADDED from /Users/carlos.vasquez/target-app/android/app/src/main/AndroidManifest.xml:4:5-67
 MERGED from [com.facebook.flipper:flipper:0.125.0] /Users/carlos.vasquez/.gradle/caches/transforms-3/03f04a3f11198ce3b7c6cedb9b41266b/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:15:5-67
 MERGED from [com.facebook.flipper:flipper:0.125.0] /Users/carlos.vasquez/.gradle/caches/transforms-3/03f04a3f11198ce3b7c6cedb9b41266b/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:15:5-67
+MERGED from [com.adobe.marketing.mobile:userprofile:2.0.0] /Users/carlos.vasquez/.gradle/caches/transforms-3/29c035580c7ea02875f0541f472125f3/transformed/jetified-userprofile-2.0.0/AndroidManifest.xml:10:5-67
+MERGED from [com.adobe.marketing.mobile:userprofile:2.0.0] /Users/carlos.vasquez/.gradle/caches/transforms-3/29c035580c7ea02875f0541f472125f3/transformed/jetified-userprofile-2.0.0/AndroidManifest.xml:10:5-67
 MERGED from [com.adobe.marketing.mobile:core:2.1.3] /Users/carlos.vasquez/.gradle/caches/transforms-3/4d5bbecb82a466a2b573e89a9502822b/transformed/jetified-core-2.1.3/AndroidManifest.xml:10:5-67
 MERGED from [com.adobe.marketing.mobile:core:2.1.3] /Users/carlos.vasquez/.gradle/caches/transforms-3/4d5bbecb82a466a2b573e89a9502822b/transformed/jetified-core-2.1.3/AndroidManifest.xml:10:5-67
 	android:name
 		ADDED from /Users/carlos.vasquez/target-app/android/app/src/main/AndroidManifest.xml:4:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from /Users/carlos.vasquez/target-app/android/app/src/main/AndroidManifest.xml:5:5-79
+MERGED from [com.adobe.marketing.mobile:userprofile:2.0.0] /Users/carlos.vasquez/.gradle/caches/transforms-3/29c035580c7ea02875f0541f472125f3/transformed/jetified-userprofile-2.0.0/AndroidManifest.xml:9:5-79
+MERGED from [com.adobe.marketing.mobile:userprofile:2.0.0] /Users/carlos.vasquez/.gradle/caches/transforms-3/29c035580c7ea02875f0541f472125f3/transformed/jetified-userprofile-2.0.0/AndroidManifest.xml:9:5-79
 MERGED from [com.adobe.marketing.mobile:core:2.1.3] /Users/carlos.vasquez/.gradle/caches/transforms-3/4d5bbecb82a466a2b573e89a9502822b/transformed/jetified-core-2.1.3/AndroidManifest.xml:9:5-79
 MERGED from [com.adobe.marketing.mobile:core:2.1.3] /Users/carlos.vasquez/.gradle/caches/transforms-3/4d5bbecb82a466a2b573e89a9502822b/transformed/jetified-core-2.1.3/AndroidManifest.xml:9:5-79
 	android:name
@@ -230,12 +232,10 @@ MERGED from [:adobe_react-native-aepassurance] /Users/carlos.vasquez/target-app/
 MERGED from [:adobe_react-native-aepassurance] /Users/carlos.vasquez/target-app/node_modules/@adobe/react-native-aepassurance/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:adobe_react-native-aepcore] /Users/carlos.vasquez/target-app/node_modules/@adobe/react-native-aepcore/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:adobe_react-native-aepcore] /Users/carlos.vasquez/target-app/node_modules/@adobe/react-native-aepcore/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:adobe_react-native-aepedge] /Users/carlos.vasquez/target-app/node_modules/@adobe/react-native-aepedge/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:adobe_react-native-aepedge] /Users/carlos.vasquez/target-app/node_modules/@adobe/react-native-aepedge/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:adobe_react-native-aepedgeidentity] /Users/carlos.vasquez/target-app/node_modules/@adobe/react-native-aepedgeidentity/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:adobe_react-native-aepedgeidentity] /Users/carlos.vasquez/target-app/node_modules/@adobe/react-native-aepedgeidentity/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:adobe_react-native-aeptarget] /Users/carlos.vasquez/target-app/node_modules/@adobe/react-native-aeptarget/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:adobe_react-native-aeptarget] /Users/carlos.vasquez/target-app/node_modules/@adobe/react-native-aeptarget/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:adobe_react-native-aepuserprofile] /Users/carlos.vasquez/target-app/node_modules/@adobe/react-native-aepuserprofile/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:adobe_react-native-aepuserprofile] /Users/carlos.vasquez/target-app/node_modules/@adobe/react-native-aepuserprofile/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-safe-area-context] /Users/carlos.vasquez/target-app/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-safe-area-context] /Users/carlos.vasquez/target-app/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-screens] /Users/carlos.vasquez/target-app/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
@@ -284,12 +284,10 @@ MERGED from [com.adobe.marketing.mobile:identity:2.0.2] /Users/carlos.vasquez/.g
 MERGED from [com.adobe.marketing.mobile:identity:2.0.2] /Users/carlos.vasquez/.gradle/caches/transforms-3/a41ffceaacb8042b474d21c683cfd524/transformed/jetified-identity-2.0.2/AndroidManifest.xml:5:5-7:41
 MERGED from [com.adobe.marketing.mobile:lifecycle:2.0.1] /Users/carlos.vasquez/.gradle/caches/transforms-3/2cb6ce813cc1064f1922f9e473aff0a4/transformed/jetified-lifecycle-2.0.1/AndroidManifest.xml:5:5-7:41
 MERGED from [com.adobe.marketing.mobile:lifecycle:2.0.1] /Users/carlos.vasquez/.gradle/caches/transforms-3/2cb6ce813cc1064f1922f9e473aff0a4/transformed/jetified-lifecycle-2.0.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.adobe.marketing.mobile:edge:2.1.0] /Users/carlos.vasquez/.gradle/caches/transforms-3/a393c8e427d50c050f51d0f3a9fe1135/transformed/jetified-edge-2.1.0/AndroidManifest.xml:16:5-18:41
-MERGED from [com.adobe.marketing.mobile:edge:2.1.0] /Users/carlos.vasquez/.gradle/caches/transforms-3/a393c8e427d50c050f51d0f3a9fe1135/transformed/jetified-edge-2.1.0/AndroidManifest.xml:16:5-18:41
-MERGED from [com.adobe.marketing.mobile:edgeidentity:2.0.0] /Users/carlos.vasquez/.gradle/caches/transforms-3/6d9d3c3a873ea9da5374e3497714f4b2/transformed/jetified-edgeidentity-2.0.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.adobe.marketing.mobile:edgeidentity:2.0.0] /Users/carlos.vasquez/.gradle/caches/transforms-3/6d9d3c3a873ea9da5374e3497714f4b2/transformed/jetified-edgeidentity-2.0.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.adobe.marketing.mobile:target:2.0.0] /Users/carlos.vasquez/.gradle/caches/transforms-3/6ec1ea94b709c818d02f4cb1434561bc/transformed/jetified-target-2.0.0/AndroidManifest.xml:16:5-18:41
 MERGED from [com.adobe.marketing.mobile:target:2.0.0] /Users/carlos.vasquez/.gradle/caches/transforms-3/6ec1ea94b709c818d02f4cb1434561bc/transformed/jetified-target-2.0.0/AndroidManifest.xml:16:5-18:41
+MERGED from [com.adobe.marketing.mobile:userprofile:2.0.0] /Users/carlos.vasquez/.gradle/caches/transforms-3/29c035580c7ea02875f0541f472125f3/transformed/jetified-userprofile-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.adobe.marketing.mobile:userprofile:2.0.0] /Users/carlos.vasquez/.gradle/caches/transforms-3/29c035580c7ea02875f0541f472125f3/transformed/jetified-userprofile-2.0.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.adobe.marketing.mobile:core:2.1.3] /Users/carlos.vasquez/.gradle/caches/transforms-3/4d5bbecb82a466a2b573e89a9502822b/transformed/jetified-core-2.1.3/AndroidManifest.xml:5:5-7:41
 MERGED from [com.adobe.marketing.mobile:core:2.1.3] /Users/carlos.vasquez/.gradle/caches/transforms-3/4d5bbecb82a466a2b573e89a9502822b/transformed/jetified-core-2.1.3/AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.material:material:1.1.0] /Users/carlos.vasquez/.gradle/caches/transforms-3/ff7f9e1ea9c2e709fffb9e018f2252cf/transformed/material-1.1.0/AndroidManifest.xml:20:5-44
